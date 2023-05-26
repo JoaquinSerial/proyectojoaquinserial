@@ -1,0 +1,38 @@
+.Banner {
+    background: url(../Img/Camilla\ dentista.jpeg)fixed center/cover;
+    height: 50rem;
+    width: 40;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    opacity: 0.8;
+}
+
+.banner-info {
+    padding: 0.3rem;
+    position: absolute;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+}
+
+.titulo-banner {
+    line-height: 1.5;
+    font-size: 3rem;
+    font-family: sans-serif;
+}
+
+.banner-p {
+    line-height: 2rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+}

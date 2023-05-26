@@ -1,0 +1,25 @@
+.Card__principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-right: 2rem;
+}
+
+.Servicios__fondo {
+    background: url(../Img/servicios.jpeg)fixed center/cover;
+    height: 60rem;
+    width: 250rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem;
+}
+
+.img-fluid {
+    height: 200px;
+}

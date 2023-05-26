@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* variabels */
+@use "_variables.scss";
+
+/* Main Header */
+@use "_main-header.scss";
+
+/*Main Body */
+@use "_main-body.scss";
+
+/*Footer */
+@use "_footer.scss";
+
+/*Main Contacto */
+@use "_main-contactenos.scss";
+
+/*Main Servicios */
+@use "_main-servicios.scss";
+
+
+/*Main Nosotros */
+@use "_main-nosotros.scss";
+
+/*Responsive */
+@use "_responsive.scss";

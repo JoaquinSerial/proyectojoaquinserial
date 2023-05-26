@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(197, 196, 196);
+    padding: .6rem;
+}
+
+li {
+    display: inline-block;
+    padding: 0.5rem;
+    border-radius: 5px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+nav ul li::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background: rgb(32, 32, 32);
+    position: absolute;
+    left: 0;
+    bottom: 1.5px;
+    transition: 0.4s;
+}
+
+nav ul li:hover::before {
+    width: 100%;
+}
+
+.link-separado {
+    display: inline-block;
+    background-color: blueviolet;
+    padding: 0.5rem;
+    border-radius: 5px;
+    position: absolute;
+    top: 0.7rem;
+    left: 0.5rem;
+}
