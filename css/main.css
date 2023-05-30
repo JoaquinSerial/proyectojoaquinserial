@@ -145,7 +145,7 @@ nav ul li:hover::before {
 }
 
 .Contactenos__banner {
-  background: url(../Img/Sala-espera.jpg) fixed center/cover;
+  background: url(../Img/salaespera.jpg) fixed center/cover;
   height: 50rem;
   position: relative;
   display: -webkit-box;

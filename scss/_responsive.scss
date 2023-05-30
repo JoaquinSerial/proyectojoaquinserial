@@ -1,4 +1,4 @@
-@media screen and (max-width: 780px){
+@media (max-width: 767.98px){
     .carousel-inner img {
         width: 100%;
         max-height: 500px;
@@ -7,7 +7,7 @@
         height: 500px;
     }
 }
-@media screen and (max-width: 480px){
+@media (max-width: 575.98px){
     .carousel-inner img {
         max-height: 300px;
     }
@@ -16,3 +16,24 @@
     }
 
 }
+
+@media (max-width: 575.98px){
+    .pie-pagina{
+        max-width: 480px;
+        
+        .box{
+            flex-direction: column;
+        }
+    }
+}
+
+
+
+// // pequeños dispositivos
+// @media (max-width: 575.98px)
+
+// // tablets
+// @media (max-width: 767.98px) 
+
+// // desktop
+// @media screen (max-width: 1399.98px)
