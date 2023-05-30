@@ -57,7 +57,7 @@ nav ul li:hover::before {
 }
 
 .Banner {
-  background: url(../Img/camilladentista.jpeg) fixed center/cover;
+  background: url(../Img/camilla.jpeg) fixed center/cover;
   height: 50rem;
   width: 40;
   position: relative;
@@ -145,7 +145,7 @@ nav ul li:hover::before {
 }
 
 .Contactenos__banner {
-  background: url(../Img/salaespera.jpg) fixed center/cover;
+  background: url(../Img/sal.jpg) fixed center/cover;
   height: 50rem;
   position: relative;
   display: -webkit-box;
@@ -189,7 +189,7 @@ nav ul li:hover::before {
 }
 
 .Servicios__fondo {
-  background: url(../Img/servicios.jpeg) fixed center/cover;
+  background: url(../Img/serv.jpeg) fixed center/cover;
   height: 60rem;
   width: 250rem;
   position: relative;
