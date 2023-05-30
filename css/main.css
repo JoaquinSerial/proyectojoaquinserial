@@ -57,7 +57,7 @@ nav ul li:hover::before {
 }
 
 .Banner {
-  background: url(../Img/Camilla\ dentista.jpeg) fixed center/cover;
+  background: url(../Img/camilladentista.jpeg) fixed center/cover;
   height: 50rem;
   width: 40;
   position: relative;
