@@ -151,19 +151,9 @@ nav ul li:hover::before {
       -ms-flex-pack: center;
           justify-content: center;
 }
-
-.Contactenos_banner-titulo {
-  top: 50rem;
-}
-
-form-floating {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.Contactenos__banner .titulos-contactenos {
+  position: relative;
+  top: 3px;
 }
 
 .Card__principal {
