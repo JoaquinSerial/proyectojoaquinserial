@@ -6,3 +6,14 @@ $grid-breakpoints: (
     xl: 1200px,
     xxl: 1400px
 );
+
+@mixin size  ($alto, $ancho){
+    height: $alto;
+    width: $ancho;
+}
+
+@mixin texto ($color, $size){
+    color: $color;
+    font-size: $size;
+}
+
