@@ -146,8 +146,14 @@ nav ul li:hover::before {
   font-size: 2.5rem;
 }
 
-.pie-pagina .grupo-1 .box p {
-  margin-bottom: 3rem;
+.Footerlistado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .Contactenos__banner {
