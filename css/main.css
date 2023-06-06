@@ -115,6 +115,7 @@ nav ul li:hover::before {
   gap: 2% 0%;
   grid-auto-flow: row;
   grid-template-areas: "texto texto2 texto3" "cardmain1 cardmain2 cardmain3" "parrafoabajo parrafoabajo parrafoabajo";
+  justify-items: center;
 }
 
 .texto {
