@@ -107,6 +107,44 @@ nav ul li:hover::before {
   font-family: sans-serif;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 2% 0%;
+  grid-auto-flow: row;
+  grid-template-areas: "texto texto2 texto3" "cardmain1 cardmain2 cardmain3" "parrafoabajo parrafoabajo parrafoabajo";
+}
+
+.texto {
+  grid-area: texto;
+}
+
+.texto2 {
+  grid-area: texto2;
+}
+
+.texto3 {
+  grid-area: texto3;
+}
+
+.cardmain1 {
+  grid-area: cardmain1;
+}
+
+.cardmain2 {
+  grid-area: cardmain2;
+}
+
+.cardmain3 {
+  grid-area: cardmain3;
+}
+
+.parrafoabajo {
+  grid-area: parrafoabajo;
+}
+
 .pie-pagina {
   width: 100%;
   background: color black;
