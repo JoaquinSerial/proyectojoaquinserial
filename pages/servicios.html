@@ -37,8 +37,8 @@
                             <a class="nav-link" href="contactenos.html">Contactenos</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="servicios.html" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="servicios.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Servicios
                             </a>
                             <ul class="dropdown-menu">
@@ -56,58 +56,78 @@
     <main>
         <section class="Card__principal">
             <div class="Servicios__fondo">
-                <div class="card mb-3" style="max-width: 780px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="../img/cond.jpeg" class="img-fluid rounded-start"
-                                alt="Ortodoncia">
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Ortodoncia
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>En que consiste?</strong> consiste en Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni.
+                                
+                            </div>
                         </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Ortodoncia</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
-                                </p>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Odonto pediatria
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>En que consiste?</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat.
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Tratamiento de Conducto
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>En que consiste?</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae?
+                                
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="card mb-3" style="max-width: 780px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="../img/ped.jpg" class="img-fluid rounded-start" alt="pediatria">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
-                                </p>
-                            </div>
-                        </div>
+
+                <div class="cardServicios">
+                <div class="card" style="width: 25rem;">
+                    <img src="../img/conduct.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Ortodoncia</p>
                     </div>
                 </div>
 
-                <div class="card mb-3" style="max-width: 780px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="../img/conduct.jpg" class="img-fluid rounded-start"
-                                alt="Tratamiento de conducto">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Tratamiento de conducto</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small>
-                                </p>
-                            </div>
-                        </div>
+                <div class="card" style="width: 25rem;">
+                    <img src="../img/ped.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Odonto pediatria</p>
                     </div>
                 </div>
+
+                <div class="card" style="width: 25rem;">
+                    <img src="../img/serv.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Tratamiento de Conducto</p>
+                    </div>
+                </div>
+            </div>
+
+
             </div>
             <!-- fin de cards -->
             </div>
@@ -146,7 +166,7 @@
 
             <div class="grupo-2">
                 <small> &copy; 2023 <b>Consultorio Tatarinoff</b> - Todos los Derechos Reservados.</small>
-                            </div>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
