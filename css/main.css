@@ -96,14 +96,14 @@ nav ul li:hover::before {
 }
 
 .titulo-banner {
+  font-family: "Roboto Mono", monospace;
   line-height: 1.5;
   font-size: 3rem;
-  font-family: sans-serif;
 }
 
 .banner-p {
   line-height: 2rem;
-  font-size: 1rem;
+  font-size: 8rem;
   font-family: sans-serif;
 }
 
@@ -251,8 +251,16 @@ nav ul li:hover::before {
   top: 3px;
 }
 
-.cardServicios {
+.accordion-button {
   font-family: "Noto Sans", sans-serif;
+  font-size: large;
+}
+
+.accordion-body {
+  font-size: large;
+}
+
+.cardServicios {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
