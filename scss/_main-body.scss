@@ -1,3 +1,7 @@
+body{
+    background-color: #E7EBEE;
+}
+
 .Banner {
     background: url(../img/camilla.jpeg)fixed center/cover;
     height: 50rem;
@@ -6,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10rem;
 }
 
 .banner::before {
@@ -37,6 +42,19 @@
     font-family: sans-serif;
 }
 
+.mainInicio .grid .texto2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: larger;
+}
+
+
+
+.mainInicio .grid .parrafomedio{
+    font-family: 'Inconsolata', monospace;
+    font-size: medium;
+}
+
+
 
 .grid {
     display: grid;
@@ -47,8 +65,8 @@
     grid-auto-flow: row;
     grid-template-areas:
         "texto texto2 texto3"
-        "cardmain1 cardmain2 cardmain3"
-        "parrafoabajo parrafoabajo parrafoabajo";
+        "parrafoabajo1 parrafoabajo2 parrafoabajo"
+        "cardmain1 cardmain2 cardmain3";
         justify-items: center;
 }
 
@@ -76,6 +94,9 @@
     grid-area: cardmain3;
 }
 
-.parrafoabajo {
-    grid-area: parrafoabajo;
+.parrafoabajo1 {
+    grid-area: parrafoabajo1;
+}
+.parrafoabajo2 {
+    grid-area: parrafoabajo2;
 }

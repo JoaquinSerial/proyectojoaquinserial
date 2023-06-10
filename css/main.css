@@ -11,6 +11,10 @@ section {
   margin-bottom: 10vh;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 ul {
   list-style-type: none;
   text-align: center;
@@ -62,6 +66,10 @@ nav ul li:hover::before {
   left: 0.5rem;
 }
 
+body {
+  background-color: #E7EBEE;
+}
+
 .Banner {
   background: url(../img/camilla.jpeg) fixed center/cover;
   height: 50rem;
@@ -76,6 +84,7 @@ nav ul li:hover::before {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 10rem;
 }
 
 .banner::before {
@@ -107,6 +116,16 @@ nav ul li:hover::before {
   font-family: sans-serif;
 }
 
+.mainInicio .grid .texto2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: larger;
+}
+
+.mainInicio .grid .parrafomedio {
+  font-family: "Inconsolata", monospace;
+  font-size: medium;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -114,7 +133,7 @@ nav ul li:hover::before {
   grid-auto-columns: 1fr;
   gap: 2% 0%;
   grid-auto-flow: row;
-  grid-template-areas: "texto texto2 texto3" "cardmain1 cardmain2 cardmain3" "parrafoabajo parrafoabajo parrafoabajo";
+  grid-template-areas: "texto texto2 texto3" "parrafoabajo1 parrafoabajo2 parrafoabajo" "cardmain1 cardmain2 cardmain3";
   justify-items: center;
 }
 
@@ -142,11 +161,16 @@ nav ul li:hover::before {
   grid-area: cardmain3;
 }
 
-.parrafoabajo {
-  grid-area: parrafoabajo;
+.parrafoabajo1 {
+  grid-area: parrafoabajo1;
+}
+
+.parrafoabajo2 {
+  grid-area: parrafoabajo2;
 }
 
 .pie-pagina {
+  background-color: #E7EBEE;
   width: 100%;
   background: color black;
 }
@@ -290,6 +314,54 @@ nav ul li:hover::before {
   height: 200px;
 }
 
+.sobreNosotros {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.sobreNosotros h2 {
+  margin: 2rem;
+  font-size: 4.5rem;
+  font-family: "Inconsolata", monospace;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sobreNosotros p {
+  margin: 2rem;
+  font-size: 2.5rem;
+}
+
+.mapa h3 {
+  margin: 1rem;
+  font-size: 3.5rem;
+}
+
+.mapa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
 .Fondo__Nosotros {
   background: url(../img/equipos.jpg) fixed center/cover;
   height: 50rem;
@@ -379,3 +451,27 @@ nav ul li:hover::before {
 /*Main Servicios */
 /*Main Nosotros */
 /*Responsive */
+.contenedor-404 {
+  background-color: white;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.contenedor-404 img {
+  width: 25%;
+}
+.contenedor-404 p {
+  font-size: 3rem;
+}

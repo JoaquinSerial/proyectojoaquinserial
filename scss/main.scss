@@ -1,6 +1,7 @@
 
 @use "_global.scss";
 
+
 /* variables */
 @use "_variables.scss";
 
@@ -23,5 +24,9 @@
 /*Main Nosotros */
 @use "_main-nosotros.scss";
 
+@use "_vermas.scss";
 /*Responsive */
 @use "_responsive.scss";
+
+
+@import "_404.scss";
