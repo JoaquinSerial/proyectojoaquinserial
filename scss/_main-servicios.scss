@@ -22,18 +22,14 @@
 height: 25rem;
 width: 25rem;
 }
-
-// .Servicios__fondo {
-//     background: url(../img/serv.jpeg)fixed center/cover;
-//     height: 60rem;
-//     width: 250rem;
-//     position: relative;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     margin: 0rem;
-// }
-
 .img-fluid {
     height: 200px;
+}
+
+
+@media screen and (max-width:543px){
+    .cardServicios .card img{
+        height: auto;
+        width: auto;
+        }
 }

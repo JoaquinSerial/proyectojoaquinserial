@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #E7EBEE;
 }
 
@@ -42,14 +42,14 @@ body{
     font-family: sans-serif;
 }
 
-.mainInicio .grid .texto2{
+.mainInicio .grid .texto2 {
     font-family: 'Noto Sans', sans-serif;
     font-size: larger;
 }
 
 
 
-.mainInicio .grid .parrafomedio{
+.mainInicio .grid .parrafomedio {
     font-family: 'Inconsolata', monospace;
     font-size: medium;
 }
@@ -67,7 +67,7 @@ body{
         "texto texto2 texto3"
         "parrafoabajo1 parrafoabajo2 parrafoabajo"
         "cardmain1 cardmain2 cardmain3";
-        justify-items: center;
+    justify-items: center;
 }
 
 .texto {
@@ -97,6 +97,44 @@ body{
 .parrafoabajo1 {
     grid-area: parrafoabajo1;
 }
+
 .parrafoabajo2 {
     grid-area: parrafoabajo2;
+}
+
+@media screen and (max-width: 1450px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        text-align: center;
+        justify-content: center;
+
+        grid-template-areas:
+            "... ... texto2"
+            "... ... parrafoabajo2"
+            "... ... cardmain1"
+            "... ... cardmain2"
+            "... ... cardmain3";
+
+    }
+}
+
+
+@media screen and (max-width: 537px) {
+    .grid {
+
+        grid-template-rows: 1fr;
+        justify-items: center;
+        text-align: center;
+        justify-content: center;
+
+        grid-template-areas:
+            "... ... texto2"
+            "... ... parrafoabajo2"
+            "... ... cardmain1"
+            "... ... cardmain2"
+            "... ... cardmain3";
+
+    }
 }

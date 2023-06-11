@@ -1,5 +1,4 @@
-
-.sobreNosotros{
+.sobreNosotros {
     align-items: center;
     text-align: center;
     position: relative;
@@ -7,7 +6,7 @@
 }
 
 
-.sobreNosotros h2{
+.sobreNosotros h2 {
     margin: 2rem;
     font-size: 4.5rem;
     font-family: 'Inconsolata', monospace;
@@ -15,18 +14,48 @@
     flex-direction: column;
     align-items: center;
 }
-.sobreNosotros p{
+
+.sobreNosotros p {
     margin: 2rem;
-font-size: 2.5rem;
+    font-size: 2.5rem;
 }
 
-.mapa h3{
+.mapa h3 {
     margin: 1rem;
     font-size: 3.5rem;
 }
-.mapa{
+
+.mapa {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+
+@media screen and (max-width: 900px) {
+    .sobreNosotros h2 {
+
+        font-size: 3.5rem;
+
+    }
+
+    .sobreNosotros p {
+
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 537px) {
+    .sobreNosotros h2 {
+
+        font-size: 2.5rem;
+
+    }
+
+    .sobreNosotros p {
+
+        font-size: 1.5rem;
+    }
 }
